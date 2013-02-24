@@ -2,8 +2,8 @@ NAME
     lib::if::dev - Use lib/ if we're in a dev root
 
 VERSION
-    This document describes version 0.001 of lib::if::dev - released
-    September 08, 2012 as part of lib-if-dev.
+    This document describes version 0.002 of lib::if::dev - released
+    February 24, 2013 as part of lib-if-dev.
 
 SYNOPSIS
         # does a 'use lib "lib/"' if exists Makefile.PL, Build.PL, or dist.ini
@@ -20,18 +20,6 @@ DESCRIPTION
     If your current directory contains a directory "lib" and one or more of
     Makefile.PL, Build.PL, or dist.ini, then this package pushes 'lib/' onto
     @INC.
-
-SOURCE
-    The development version is on github at
-    <http://github.com/RsrchBoy/lib-if-dev> and may be cloned from
-    <git://github.com/RsrchBoy/lib-if-dev.git>
-
-BUGS
-    Please report any bugs or feature requests on the bugtracker website
-    https://github.com/RsrchBoy/lib-if-dev/issues
-
-    When submitting a bug or request, please include a test-file or a patch
-    to an existing test-file that illustrates the bug or desired feature.
 
 AUTHOR
     Chris Weyl <cweyl@alumni.drew.edu>

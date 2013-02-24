@@ -9,7 +9,7 @@
 #
 package lib::if::dev;
 {
-  $lib::if::dev::VERSION = '0.001';
+  $lib::if::dev::VERSION = '0.002';
 }
 
 # ABSTRACT: Use lib/ if we're in a dev root
@@ -39,7 +39,7 @@ lib::if::dev - Use lib/ if we're in a dev root
 
 =head1 VERSION
 
-This document describes version 0.001 of lib::if::dev - released September 08, 2012 as part of lib-if-dev.
+This document describes version 0.002 of lib::if::dev - released February 24, 2013 as part of lib-if-dev.
 
 =head1 SYNOPSIS
 
@@ -58,20 +58,6 @@ This package aims to solve that (for one value of "solve").
 If your current directory contains a directory "lib" and one or more of
 Makefile.PL, Build.PL, or dist.ini, then this package pushes 'lib/' onto
 C<@INC>.
-
-=head1 SOURCE
-
-The development version is on github at L<http://github.com/RsrchBoy/lib-if-dev>
-and may be cloned from L<git://github.com/RsrchBoy/lib-if-dev.git>
-
-=head1 BUGS
-
-Please report any bugs or feature requests on the bugtracker website
-https://github.com/RsrchBoy/lib-if-dev/issues
-
-When submitting a bug or request, please include a test-file or a
-patch to an existing test-file that illustrates the bug or desired
-feature.
 
 =head1 AUTHOR
 
